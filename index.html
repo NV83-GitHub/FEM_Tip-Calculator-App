@@ -8,9 +8,51 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="appTitle">
+        <span>SPLI</span>
+        <span>TTER</span>
+    </div>
 
-    
+    <div class="container">
+
+        <div class="bill">
+            <p>Bill</p>
+            <input type="text">
+        </div>
+        
+        <div class="tipArea">
+            <p>Select Tip %</p>
+            <button class="btn">5%</button>
+            <button class="btn">10%</button>
+            <button class="btn">15%</button>
+            <button class="btn">25%</button>
+            <button class="btn">50%</button>
+            <input type="text" placeholder="Custom">
+        </div>
+
+        <div class="nbrOfPeople">
+            <p>Number of People</p>
+            <input type="text">
+        </div>
+
+        <div class="resultCard">
+            <div class="tipAmount">
+                <span>Tip Amount</span>
+                <span>/person</span>
+                <div id="dynamicResult1"></div>
+            </div>
+
+            <div class="tipAmount">
+                <span>Total</span>
+                <span>/person</span>
+                <div id="dynamicResult1"></div>
+            </div>
+
+            <button id="resetBtn">Reset</button>
+        </div>
+
+    </div>
+
     <script src="./script.js"></script>
 </body>
 </html>
